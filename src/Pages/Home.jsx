@@ -31,7 +31,7 @@ export default function Home(props) {
   const layoutData = useSelector(({ dashboard }) => dashboard);
 
   const [mounted, setMounted] = useState(false);
-  const [items, setItems] = useState(layoutData.items);
+  const [items, setItems] = useState((layoutData.items || []));
   const [edit, setEdit] = useState(false);
   const [layout, setLayout] = useState(layoutData.layout);
   const [newChartOpen, setNewChartOpen] = useState(false);
@@ -70,18 +70,19 @@ export default function Home(props) {
     setState({
       ...state,
       layouts: {
-        lg: [...state.layouts.lg, ...newCHarts],
-        md: [...state.layouts.md, ...newCHarts],
-        sm: [...state.layouts.sm, ...newCHarts],
+        lg: [...(state.layouts?.lg || []), ...newCHarts],
+        md: [...(state.layouts?.md || []), ...newCHarts],
+        sm: [...(state.layouts?.sm || []), ...newCHarts],
       },
     });
     setLayout([...layout, ...newCHarts]);
-    setItems([...items, ...newCHarts]);
+    setItems([...(items || []), ...newCHarts]);
     setEdit(true);
     handleCloseNewCharts();
   };
 
   const handleDeleteChart = (layoutId) => {
+    console.log(layoutId);
     setItems(items.filter((obj) => obj.i !== layoutId));
   };
 
@@ -93,11 +94,14 @@ export default function Home(props) {
   };
 
   const onLayoutChange = (changedlayout, layouts) => {
-    setLayout(changedlayout);
-    setState({
-      ...state,
+    console.log('new layout', changedlayout);
+    const lItems = [...items];
+    console.log(lItems);
+    setLayout(d => changedlayout);
+    /* setState((tempState) =>({
+      ...tempState,
       layouts,
-    });
+    })); */
   };
 
   const renderResizeHandle = edit ? <span className="react-resizable-handle" /> : <span />;
@@ -109,10 +113,25 @@ export default function Home(props) {
   };
 
   const handleSave = () => {
+
+    const nItems = [];
+
+    for(let item of items) {
+      const lItem = layout.find(chart => chart.i === item.chartId);
+      const nItem = {
+        ...item,
+        h: lItem.h,
+        x: lItem.x,
+        w: lItem.w,
+        y: lItem.y,
+      }
+      nItems.push(nItem)
+    }
+
     dispatch(saveLayout({
-      items,
+      items: nItems,
       layout,
-      layouts: state.layouts,
+      layouts: {...state.layouts, [state.currentBreakpoint]: layout},
     }));
     setEdit(false);
   };
@@ -143,11 +162,11 @@ export default function Home(props) {
 
   useEffect(() => {
     setItems(layoutData.items);
-    setLayout(layoutData.layout);
+    /* setLayout(layoutData.layout);
     setState({
       ...state,
       layouts: layoutData.layouts,
-    });
+    }); */
   }, [layoutData]);
 
   return (
@@ -205,6 +224,7 @@ export default function Home(props) {
         </Tooltip>
       </Box>
       <div style={{ minWidth: '1200px' }}>
+        {console.log('rendering')}
         <ResponsiveReactGridLayout
           {...props}
           layout={layout}

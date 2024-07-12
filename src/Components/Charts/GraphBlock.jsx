@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+/* eslint-disable react/prop-types */
+import { useEffect, useState } from 'react';
 
 import { ButtonBase, Skeleton, Box } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
@@ -65,7 +66,7 @@ function GraphBlock({ chartId, edit, handleDeleteChart }) {
             <Box display="flex" justifyContent="space-between" px={1} fontWeight="bold" mb={1}>
               {selectedChart?.name}
               {edit && (
-                <ButtonBase onClick={handleDeleteChart}>
+                <ButtonBase style={{zIndex: 999999, position: 'absolute', top: 5, right: 5}} onClick={handleDeleteChart}>
                   <CloseIcon fontSize="small" />
                 </ButtonBase>
               )}
