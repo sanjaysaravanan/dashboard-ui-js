@@ -13,9 +13,7 @@
 </ul>
 
 <b>Production:</b>
-<a href="https://flourishing-meerkat-370485.netlify.app/"
-
-> https://flourishing-meerkat-370485.netlify.app/</a
+<a href="https://flourishing-meerkat-370485.netlify.app/">https://flourishing-meerkat-370485.netlify.app/</a>
 
 <h2>Basic Vite Setup</h2>
 
