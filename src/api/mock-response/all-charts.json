@@ -1,0 +1,93 @@
+[
+  {
+      "name": "Sales Across Regions",
+      "reportId": "2bbdf6a4-e5ac-42ab-841d-762958c88829",
+      "desc": "Sales Across Regions",
+      "type": "pie",
+      "dataField": "Units",
+      "showBy": "Region",
+      "accumulator": "sum",
+      "id": "8cdc8e57-16b0-46fa-836b-d9564e4c12f0",
+      "collectionName": "sales"
+  },
+  {
+      "name": "Rep Vs Unit",
+      "reportId": "2bbdf6a4-e5ac-42ab-841d-762958c88829",
+      "desc": "Rep Vs Units Sold",
+      "type": "line",
+      "xaxis": "Rep",
+      "lines": [
+          {
+              "id": "1",
+              "dataField": "Units",
+              "color": "#ff0000"
+          }
+      ],
+      "accumulator": "sum",
+      "id": "710998bc-938c-4200-bb1e-7f9a6ccc2692",
+      "collectionName": "sales"
+  },
+  {
+      "name": "Sales Rep Vs Cost Sold",
+      "reportId": "2bbdf6a4-e5ac-42ab-841d-762958c88829",
+      "desc": "Sales Rep Vs Cost Sold",
+      "type": "bar",
+      "xaxis": "Rep",
+      "bars": [
+          {
+              "id": "1",
+              "dataField": "Unit Cost",
+              "color": "#002aff"
+          }
+      ],
+      "accumulator": "sum",
+      "stacked": false,
+      "id": "5de38cda-5d47-4cda-ab9f-6a73a0e2d048",
+      "collectionName": "sales"
+  },
+  {
+      "name": "All Details About Region",
+      "reportId": "2bbdf6a4-e5ac-42ab-841d-762958c88829",
+      "desc": "All Details VS About Region",
+      "type": "bar",
+      "xaxis": "Region",
+      "bars": [
+          {
+              "id": "1",
+              "dataField": "Units",
+              "color": "#ff0000"
+          },
+          {
+              "id": "2",
+              "dataField": "Unit Cost",
+              "color": "#002aff"
+          },
+          {
+              "id": "3",
+              "dataField": "Total",
+              "color": "#44ff00"
+          }
+      ],
+      "accumulator": "avg",
+      "stacked": true,
+      "id": "edf8840d-f537-43e8-a8c2-9721dd096e1b",
+      "collectionName": "sales"
+  },
+  {
+      "name": "Order Date Vs Sales",
+      "reportId": "2bbdf6a4-e5ac-42ab-841d-762958c88829",
+      "desc": "Order date vs Cost",
+      "type": "line",
+      "xaxis": "OrderDate",
+      "lines": [
+          {
+              "id": "1",
+              "dataField": "Total",
+              "color": "#00ff4c"
+          }
+      ],
+      "accumulator": "sum",
+      "id": "14411d37-094e-47b5-aebb-3bd5d57b6624",
+      "collectionName": "sales"
+  }
+]

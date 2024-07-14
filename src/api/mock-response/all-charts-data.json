@@ -1,0 +1,393 @@
+{
+  "8cdc8e57-16b0-46fa-836b-d9564e4c12f0": {
+    "name": "Sales Across Regions",
+    "reportId": "2bbdf6a4-e5ac-42ab-841d-762958c88829",
+    "desc": "Sales Across Regions",
+    "type": "pie",
+    "dataField": "Units",
+    "showBy": "Region",
+    "accumulator": "sum",
+    "id": "8cdc8e57-16b0-46fa-836b-d9564e4c12f0",
+    "collectionName": "sales",
+    "chartData": [
+      {
+        "Region": "Central",
+        "Units": 1199
+      },
+      {
+        "Region": "East",
+        "Units": 691
+      },
+      {
+        "Region": "West",
+        "Units": 231
+      }
+    ]
+  },
+  "710998bc-938c-4200-bb1e-7f9a6ccc2692": {
+    "name": "Rep Vs Unit",
+    "reportId": "2bbdf6a4-e5ac-42ab-841d-762958c88829",
+    "desc": "Rep Vs Units Sold",
+    "type": "line",
+    "xaxis": "Rep",
+    "lines": [
+      {
+        "id": "1",
+        "dataField": "Units",
+        "color": "#ff0000"
+      }
+    ],
+    "accumulator": "sum",
+    "id": "710998bc-938c-4200-bb1e-7f9a6ccc2692",
+    "collectionName": "sales",
+    "chartData": [
+      {
+        "Rep": "Andrews",
+        "Units": 183
+      },
+      {
+        "Rep": "Gill",
+        "Units": 213
+      },
+      {
+        "Rep": "Howard",
+        "Units": 125
+      },
+      {
+        "Rep": "Jardine",
+        "Units": 281
+      },
+      {
+        "Rep": "Jones",
+        "Units": 396
+      },
+      {
+        "Rep": "Kivell",
+        "Units": 193
+      },
+      {
+        "Rep": "Morgan",
+        "Units": 173
+      },
+      {
+        "Rep": "Parent",
+        "Units": 170
+      },
+      {
+        "Rep": "Smith",
+        "Units": 156
+      },
+      {
+        "Rep": "Sorvino",
+        "Units": 142
+      },
+      {
+        "Rep": "Thompson",
+        "Units": 89
+      }
+    ]
+  },
+  "5de38cda-5d47-4cda-ab9f-6a73a0e2d048": {
+    "name": "Sales Rep Vs Cost Sold",
+    "reportId": "2bbdf6a4-e5ac-42ab-841d-762958c88829",
+    "desc": "Sales Rep Vs Cost Sold",
+    "type": "bar",
+    "xaxis": "Rep",
+    "bars": [
+      {
+        "id": "1",
+        "dataField": "Unit Cost",
+        "color": "#002aff"
+      }
+    ],
+    "accumulator": "sum",
+    "stacked": false,
+    "id": "5de38cda-5d47-4cda-ab9f-6a73a0e2d048",
+    "collectionName": "sales",
+    "chartData": [
+      {
+        "Rep": "Andrews",
+        "Unit Cost": 10.26
+      },
+      {
+        "Rep": "Gill",
+        "Unit Cost": 40.55
+      },
+      {
+        "Rep": "Howard",
+        "Unit Cost": 6.98
+      },
+      {
+        "Rep": "Jardine",
+        "Unit Cost": 39.95
+      },
+      {
+        "Rep": "Jones",
+        "Unit Cost": 55.92
+      },
+      {
+        "Rep": "Kivell",
+        "Unit Cost": 173.93
+      },
+      {
+        "Rep": "Morgan",
+        "Unit Cost": 26.47
+      },
+      {
+        "Rep": "Parent",
+        "Unit Cost": 55.97
+      },
+      {
+        "Rep": "Smith",
+        "Unit Cost": 141.29
+      },
+      {
+        "Rep": "Sorvino",
+        "Unit Cost": 299.97
+      },
+      {
+        "Rep": "Thompson",
+        "Unit Cost": 21.98
+      }
+    ]
+  },
+  "edf8840d-f537-43e8-a8c2-9721dd096e1b": {
+    "name": "All Details About Region",
+    "reportId": "2bbdf6a4-e5ac-42ab-841d-762958c88829",
+    "desc": "All Details VS About Region",
+    "type": "bar",
+    "xaxis": "Region",
+    "bars": [
+      {
+        "id": "1",
+        "dataField": "Units",
+        "color": "#ff0000"
+      },
+      {
+        "id": "2",
+        "dataField": "Unit Cost",
+        "color": "#002aff"
+      },
+      {
+        "id": "3",
+        "dataField": "Total",
+        "color": "#44ff00"
+      }
+    ],
+    "accumulator": "avg",
+    "stacked": true,
+    "id": "edf8840d-f537-43e8-a8c2-9721dd096e1b",
+    "collectionName": "sales",
+    "chartData": [
+      {
+        "Region": "Central",
+        "Units": 49.96,
+        "Unit Cost": 18.02,
+        "Total": 464.13
+      },
+      {
+        "Region": "East",
+        "Units": 53.15,
+        "Unit Cost": 9.14,
+        "Total": 461.7
+      },
+      {
+        "Region": "West",
+        "Units": 38.5,
+        "Unit Cost": 53.66,
+        "Total": 414.45
+      }
+    ]
+  },
+  "14411d37-094e-47b5-aebb-3bd5d57b6624": {
+    "name": "Order Date Vs Sales",
+    "reportId": "2bbdf6a4-e5ac-42ab-841d-762958c88829",
+    "desc": "Order date vs Cost",
+    "type": "line",
+    "xaxis": "OrderDate",
+    "lines": [
+      {
+        "id": "1",
+        "dataField": "Total",
+        "color": "#00ff4c"
+      }
+    ],
+    "accumulator": "sum",
+    "id": "14411d37-094e-47b5-aebb-3bd5d57b6624",
+    "collectionName": "sales",
+    "chartData": [
+      {
+        "OrderDate": "2021-01-06",
+        "Total": 189.05
+      },
+      {
+        "OrderDate": "2021-01-23",
+        "Total": 999.5
+      },
+      {
+        "OrderDate": "2021-02-09",
+        "Total": 179.64
+      },
+      {
+        "OrderDate": "2021-02-26",
+        "Total": 539.73
+      },
+      {
+        "OrderDate": "2021-03-15",
+        "Total": 167.44
+      },
+      {
+        "OrderDate": "2021-04-01",
+        "Total": 299.4
+      },
+      {
+        "OrderDate": "2021-04-18",
+        "Total": 149.25
+      },
+      {
+        "OrderDate": "2021-05-05",
+        "Total": 449.1
+      },
+      {
+        "OrderDate": "2021-05-22",
+        "Total": 63.68
+      },
+      {
+        "OrderDate": "2021-06-08",
+        "Total": 539.4
+      },
+      {
+        "OrderDate": "2021-06-25",
+        "Total": 449.1
+      },
+      {
+        "OrderDate": "2021-07-12",
+        "Total": 57.71
+      },
+      {
+        "OrderDate": "2021-07-29",
+        "Total": 1619.19
+      },
+      {
+        "OrderDate": "2021-08-15",
+        "Total": 174.65
+      },
+      {
+        "OrderDate": "2021-09-01",
+        "Total": 250.0
+      },
+      {
+        "OrderDate": "2021-09-18",
+        "Total": 255.84
+      },
+      {
+        "OrderDate": "2021-10-05",
+        "Total": 251.72
+      },
+      {
+        "OrderDate": "2021-10-22",
+        "Total": 575.36
+      },
+      {
+        "OrderDate": "2021-11-08",
+        "Total": 299.85
+      },
+      {
+        "OrderDate": "2021-11-25",
+        "Total": 479.04
+      },
+      {
+        "OrderDate": "2021-12-12",
+        "Total": 86.43
+      },
+      {
+        "OrderDate": "2021-12-29",
+        "Total": 1183.26
+      },
+      {
+        "OrderDate": "2022-01-15",
+        "Total": 413.54
+      },
+      {
+        "OrderDate": "2022-02-01",
+        "Total": 1305.0
+      },
+      {
+        "OrderDate": "2022-02-18",
+        "Total": 19.96
+      },
+      {
+        "OrderDate": "2022-03-07",
+        "Total": 139.93
+      },
+      {
+        "OrderDate": "2022-03-24",
+        "Total": 249.5
+      },
+      {
+        "OrderDate": "2022-04-10",
+        "Total": 131.34
+      },
+      {
+        "OrderDate": "2022-04-27",
+        "Total": 479.04
+      },
+      {
+        "OrderDate": "2022-05-14",
+        "Total": 68.37
+      },
+      {
+        "OrderDate": "2022-05-31",
+        "Total": 719.2
+      },
+      {
+        "OrderDate": "2022-06-17",
+        "Total": 625.0
+      },
+      {
+        "OrderDate": "2022-07-04",
+        "Total": 309.38
+      },
+      {
+        "OrderDate": "2022-07-21",
+        "Total": 686.95
+      },
+      {
+        "OrderDate": "2022-08-07",
+        "Total": 1005.9
+      },
+      {
+        "OrderDate": "2022-08-24",
+        "Total": 825.0
+      },
+      {
+        "OrderDate": "2022-09-10",
+        "Total": 9.03
+      },
+      {
+        "OrderDate": "2022-09-27",
+        "Total": 151.24
+      },
+      {
+        "OrderDate": "2022-10-14",
+        "Total": 1139.43
+      },
+      {
+        "OrderDate": "2022-10-31",
+        "Total": 18.06
+      },
+      {
+        "OrderDate": "2022-11-17",
+        "Total": 54.89
+      },
+      {
+        "OrderDate": "2022-12-04",
+        "Total": 1879.06
+      },
+      {
+        "OrderDate": "2022-12-21",
+        "Total": 139.72
+      }
+    ]
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "id": "dashboard",
+  "items": [
+      {
+          "i": "e9b90513-8761-4655-a4f8-f320ddbe5dfb",
+          "h": 7,
+          "w": 4,
+          "x": 0,
+          "y": 0,
+          "minW": 4,
+          "minH": 7,
+          "chartId": "8cdc8e57-16b0-46fa-836b-d9564e4c12f0",
+          "moved": null,
+          "static": null
+      },
+      {
+          "i": "4733472b-9263-46a0-8613-f4d926431721",
+          "h": 7,
+          "w": 7,
+          "x": 4,
+          "y": 0,
+          "minW": 4,
+          "minH": 7,
+          "chartId": "710998bc-938c-4200-bb1e-7f9a6ccc2692",
+          "moved": null,
+          "static": null
+      },
+      {
+          "i": "039c0ec5-abbd-4de0-9c19-3bb5ef96de3e",
+          "h": 7,
+          "w": 7,
+          "x": 0,
+          "y": 7,
+          "minW": 4,
+          "minH": 7,
+          "chartId": "5de38cda-5d47-4cda-ab9f-6a73a0e2d048",
+          "moved": null,
+          "static": null
+      },
+      {
+          "i": "82450fbe-1bd9-4515-8dc3-79fa9265c20f",
+          "h": 7,
+          "w": 4,
+          "x": 7,
+          "y": 7,
+          "minW": 4,
+          "minH": 7,
+          "chartId": "edf8840d-f537-43e8-a8c2-9721dd096e1b",
+          "moved": null,
+          "static": null
+      },
+      {
+          "i": "ccae98f0-7ce7-40ee-b263-57fc32cc9231",
+          "h": 7,
+          "w": 11,
+          "x": 0,
+          "y": 14,
+          "minW": 4,
+          "minH": 7,
+          "chartId": "14411d37-094e-47b5-aebb-3bd5d57b6624",
+          "moved": null,
+          "static": null
+      }
+  ],
+  "layout": [
+      {
+          "i": "8cdc8e57-16b0-46fa-836b-d9564e4c12f0",
+          "h": 7,
+          "w": 4,
+          "x": 0,
+          "y": 0,
+          "minW": 4,
+          "minH": 7,
+          "chartId": null,
+          "moved": false,
+          "static": false
+      },
+      {
+          "i": "710998bc-938c-4200-bb1e-7f9a6ccc2692",
+          "h": 7,
+          "w": 7,
+          "x": 4,
+          "y": 0,
+          "minW": 4,
+          "minH": 7,
+          "chartId": null,
+          "moved": false,
+          "static": false
+      },
+      {
+          "i": "5de38cda-5d47-4cda-ab9f-6a73a0e2d048",
+          "h": 7,
+          "w": 7,
+          "x": 0,
+          "y": 7,
+          "minW": 4,
+          "minH": 7,
+          "chartId": null,
+          "moved": false,
+          "static": false
+      },
+      {
+          "i": "edf8840d-f537-43e8-a8c2-9721dd096e1b",
+          "h": 7,
+          "w": 4,
+          "x": 7,
+          "y": 7,
+          "minW": 4,
+          "minH": 7,
+          "chartId": null,
+          "moved": false,
+          "static": false
+      },
+      {
+          "i": "14411d37-094e-47b5-aebb-3bd5d57b6624",
+          "h": 7,
+          "w": 11,
+          "x": 0,
+          "y": 14,
+          "minW": 4,
+          "minH": 7,
+          "chartId": null,
+          "moved": false,
+          "static": false
+      }
+  ],
+  "layouts": {
+      "lg": [
+          {
+              "i": "8cdc8e57-16b0-46fa-836b-d9564e4c12f0",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 0,
+              "minW": 4,
+              "minH": 7,
+              "chartId": null,
+              "moved": false,
+              "static": false
+          },
+          {
+              "i": "710998bc-938c-4200-bb1e-7f9a6ccc2692",
+              "h": 7,
+              "w": 7,
+              "x": 4,
+              "y": 0,
+              "minW": 4,
+              "minH": 7,
+              "chartId": null,
+              "moved": false,
+              "static": false
+          },
+          {
+              "i": "5de38cda-5d47-4cda-ab9f-6a73a0e2d048",
+              "h": 7,
+              "w": 7,
+              "x": 0,
+              "y": 7,
+              "minW": 4,
+              "minH": 7,
+              "chartId": null,
+              "moved": false,
+              "static": false
+          },
+          {
+              "i": "edf8840d-f537-43e8-a8c2-9721dd096e1b",
+              "h": 7,
+              "w": 4,
+              "x": 7,
+              "y": 7,
+              "minW": 4,
+              "minH": 7,
+              "chartId": null,
+              "moved": false,
+              "static": false
+          },
+          {
+              "i": "14411d37-094e-47b5-aebb-3bd5d57b6624",
+              "h": 7,
+              "w": 11,
+              "x": 0,
+              "y": 14,
+              "minW": 4,
+              "minH": 7,
+              "chartId": null,
+              "moved": false,
+              "static": false
+          }
+      ],
+      "md": [
+          {
+              "i": "8cdc8e57-16b0-46fa-836b-d9564e4c12f0",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 0,
+              "minW": 4,
+              "minH": 7,
+              "chartId": null,
+              "moved": false,
+              "static": false
+          },
+          {
+              "i": "710998bc-938c-4200-bb1e-7f9a6ccc2692",
+              "h": 7,
+              "w": 7,
+              "x": 4,
+              "y": 0,
+              "minW": 4,
+              "minH": 7,
+              "chartId": null,
+              "moved": false,
+              "static": false
+          },
+          {
+              "i": "5de38cda-5d47-4cda-ab9f-6a73a0e2d048",
+              "h": 7,
+              "w": 11,
+              "x": 0,
+              "y": 7,
+              "minW": 4,
+              "minH": 7,
+              "chartId": null,
+              "moved": false,
+              "static": false
+          },
+          {
+              "i": "6568fa2e-265e-447c-9e2a-6b4663cf28b2",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "8cdc8e57-16b0-46fa-836b-d9564e4c12f0",
+              "moved": null,
+              "static": null
+          },
+          {
+              "i": "f0da4bcc-cc6c-4a3d-b237-0155258e5ba3",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "710998bc-938c-4200-bb1e-7f9a6ccc2692",
+              "moved": null,
+              "static": null
+          },
+          {
+              "i": "5220b7ed-9581-43df-b9b8-f921751ff4ff",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "5de38cda-5d47-4cda-ab9f-6a73a0e2d048",
+              "moved": null,
+              "static": null
+          },
+          {
+              "i": "82450fbe-1bd9-4515-8dc3-79fa9265c20f",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "edf8840d-f537-43e8-a8c2-9721dd096e1b",
+              "moved": null,
+              "static": null
+          },
+          {
+              "i": "ccae98f0-7ce7-40ee-b263-57fc32cc9231",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "14411d37-094e-47b5-aebb-3bd5d57b6624",
+              "moved": null,
+              "static": null
+          }
+      ],
+      "sm": [
+          {
+              "i": "e9b90513-8761-4655-a4f8-f320ddbe5dfb",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "8cdc8e57-16b0-46fa-836b-d9564e4c12f0",
+              "moved": null,
+              "static": null
+          },
+          {
+              "i": "4733472b-9263-46a0-8613-f4d926431721",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "710998bc-938c-4200-bb1e-7f9a6ccc2692",
+              "moved": null,
+              "static": null
+          },
+          {
+              "i": "039c0ec5-abbd-4de0-9c19-3bb5ef96de3e",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "5de38cda-5d47-4cda-ab9f-6a73a0e2d048",
+              "moved": null,
+              "static": null
+          },
+          {
+              "i": "6568fa2e-265e-447c-9e2a-6b4663cf28b2",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "8cdc8e57-16b0-46fa-836b-d9564e4c12f0",
+              "moved": null,
+              "static": null
+          },
+          {
+              "i": "f0da4bcc-cc6c-4a3d-b237-0155258e5ba3",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "710998bc-938c-4200-bb1e-7f9a6ccc2692",
+              "moved": null,
+              "static": null
+          },
+          {
+              "i": "5220b7ed-9581-43df-b9b8-f921751ff4ff",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "5de38cda-5d47-4cda-ab9f-6a73a0e2d048",
+              "moved": null,
+              "static": null
+          },
+          {
+              "i": "82450fbe-1bd9-4515-8dc3-79fa9265c20f",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "edf8840d-f537-43e8-a8c2-9721dd096e1b",
+              "moved": null,
+              "static": null
+          },
+          {
+              "i": "ccae98f0-7ce7-40ee-b263-57fc32cc9231",
+              "h": 7,
+              "w": 4,
+              "x": 0,
+              "y": 99,
+              "minW": 4,
+              "minH": 7,
+              "chartId": "14411d37-094e-47b5-aebb-3bd5d57b6624",
+              "moved": null,
+              "static": null
+          }
+      ]
+  }
+}

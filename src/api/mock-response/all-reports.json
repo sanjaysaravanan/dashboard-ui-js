@@ -1,0 +1,28 @@
+[
+  {
+      "name": "Sales",
+      "desc": "Sales Report",
+      "type": "Sales",
+      "fields": [
+          "OrderDate",
+          "Region",
+          "Rep",
+          "Item",
+          "Units",
+          "Unit Cost",
+          "Total"
+      ],
+      "collectionName": "sales",
+      "objectFields": [
+          "Region",
+          "Rep",
+          "Item"
+      ],
+      "dataFields": [
+          "Units",
+          "Unit Cost",
+          "Total"
+      ],
+      "id": "2bbdf6a4-e5ac-42ab-841d-762958c88829"
+  }
+]

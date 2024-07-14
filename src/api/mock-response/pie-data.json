@@ -1,0 +1,25 @@
+{
+  "name": "Sales Across Regions",
+  "reportId": "2bbdf6a4-e5ac-42ab-841d-762958c88829",
+  "desc": "Sales Across Regions",
+  "type": "pie",
+  "dataField": "Units",
+  "showBy": "Region",
+  "accumulator": "sum",
+  "id": "8cdc8e57-16b0-46fa-836b-d9564e4c12f0",
+  "collectionName": "sales",
+  "chartData": [
+      {
+          "Region": "Central",
+          "Units": 1199
+      },
+      {
+          "Region": "East",
+          "Units": 691
+      },
+      {
+          "Region": "West",
+          "Units": 231
+      }
+  ]
+}
