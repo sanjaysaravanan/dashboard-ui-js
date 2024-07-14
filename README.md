@@ -1,8 +1,28 @@
-# React + Vite
+<h1>Graph Generation Tool</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3>Convert Excel, JSON, CSV to graphs with the help of Numpy, Pandas</h3>
 
-Currently, two official plugins are available:
+<b>Packages Used</b>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+  <li>MUI</li>
+  <li>Axios</li>
+  <li>lodash</li>
+  <li>Recharts</li>
+  <li>Grid-Layout</li>
+</ul>
+
+<b>Production:</b>
+<a href="https://flourishing-meerkat-370485.netlify.app/"
+
+> https://flourishing-meerkat-370485.netlify.app/</a
+
+<h2>Basic Vite Setup</h2>
+
+```
+npm install
+```
+
+```
+npm run dev
+```
