@@ -26,3 +26,10 @@ npm install
 ```
 npm run dev
 ```
+
+<b>Note:</b>
+
+<p>
+  Python Backend Setup Needed, Please follow
+  <a href="https://github.com/sanjaysaravanan/dashboard-api">Fast-API Setup</a>
+</p>
